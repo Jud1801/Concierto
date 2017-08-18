@@ -1,0 +1,59 @@
+body{
+  font-size: 16px; /*1em*/
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #FFFFFF;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #000000;
+}
+
+.parallax-container {
+  min-height: 400px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.parallax-container .section {
+  width: 100%;
+}
+
+form{
+	padding: 2rem 2rem 2rem 2rem;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#artVideo video{
+  width:95%;
+}
+
+#logo{
+    width: 93%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
